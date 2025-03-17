@@ -32,6 +32,7 @@ public partial class MainWindow : Window
                 "True" => "bool",
                 "String" => "string",
                 "Integer" => "long",
+                "Float" => "double",
                 _ => t,
             };
             return isArray ? transformType + "[]" : transformType;
